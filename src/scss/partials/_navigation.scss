@@ -2,35 +2,38 @@
     height: 100%;
     width: 0;
     position: fixed; 
-    z-index: 1; 
-    left: 0;
-    top: 0;
+    z-index: 10; 
+    right: 0;
     background-color: rgb(255, 255, 255); 
     overflow-x: hidden; 
-    transition: 0.5s; 
+    transition: 0.4s; 
   }
   
-  .navbar-content {
+  .navbar_content {
     position: relative;
-    top: 25%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    width: 100%; 
+    text-align: center; 
+    margin-top: 20%;
   }
+
+  .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
   
-  /* The navigation links inside the overlay */
   .overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 36px;
-    color: #818181;
-    display: block; /* Display block instead of inline */
-    transition: 0.3s; /* Transition effects on hover (color) */
+    color: rgb(114, 114, 114);
+    display: block;
+    transition: 0.3s; 
   }
   
   /* When you mouse over the navigation links, change their color */
   .overlay a:hover, .overlay a:focus {
-    color: #1f1f1f;
+    color:#4A4A4A;
   }
 
   .openbtn{
@@ -52,7 +55,7 @@
       width: 100%; 
       height: 3px; 
       top: -10px; 
-      background-color: black; 
+      background-color: #4A4A4A; 
       display: flex;
       align-items: center;
       justify-content: center;
@@ -73,10 +76,15 @@
   /* Position the close button (top right corner) */
   .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 4px;
+    right: 40px;
     font-size: 60px;
   }
+
+
+
+
+
   
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}

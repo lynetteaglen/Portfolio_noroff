@@ -23,10 +23,10 @@ const Navigation = () => {
                 <a className="closebtn" onClick={closeNav}>&times;</a>
                 <div className="navigation-bar">
                     <ul className="navbar_content">
-                        <li><Link to="/">home</Link></li>
+                        <li className="nav-list"><Link to="/">home</Link></li>
                         <li className="nav-list"><Link to="/About">about</Link></li>
                         <li className="nav-list"><Link to="/Contact">contact</Link></li>
-                        <li className="nav-list"><Link to="/Contact">cv</Link></li>
+                        <li className="nav-list"><Link to="/Contact">curriculum vitae</Link></li>
                     </ul>
                 </div>
             </nav>
