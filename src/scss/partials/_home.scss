@@ -1,0 +1,13 @@
+
+.home{
+    &__container{
+        display: flex;
+        justify-content: center;
+    }
+    &__wrapper{
+        margin-top: 20%; 
+    }
+    &__text{
+        font-size: 4em;
+    }
+}
