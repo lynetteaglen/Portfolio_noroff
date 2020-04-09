@@ -36,7 +36,7 @@ export default function Contact() {
         <>
             <div className="contact__container">
                 <div className="contact__row">
-                    <h1 className="contact__header">Contact Form</h1>
+                    <h1 className="contact__header">have any questions?</h1>
                     <form onSubmit={handleSubmit}>
                         <p>Firstname</p>
                         <input type='text'
