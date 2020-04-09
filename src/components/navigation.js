@@ -26,7 +26,7 @@ const Navigation = () => {
                         <li className="nav-list"><Link to="/">home</Link></li>
                         <li className="nav-list"><Link to="/About">about</Link></li>
                         <li className="nav-list"><Link to="/Contact">contact</Link></li>
-                        <li className="nav-list"><Link to="/Contact">curriculum vitae</Link></li>
+                        <li className="nav-list"><Link to="/Contact">cv</Link></li>
                     </ul>
                 </div>
             </nav>

@@ -13,7 +13,7 @@ export default function Home() {
         <>
             <div className="home__container">
                 <div className="home__wrapper">
-                    <h1 className="home__text">Welcome.</h1>
+                    <h1 className="home__text">welcome.</h1>
                 </div>
 
                 <h2>&lt;h1&gt;home&lt;/h1&gt;</h2>
