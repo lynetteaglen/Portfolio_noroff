@@ -23,7 +23,17 @@
     &__header{
         text-align: center;
         margin-top: 7%;
-        margin-bottom: 3%; 
+        margin-bottom: 2%; 
+    }
+
+    &__button{
+        width: 180px;
+        margin-left: 70%; 
+        border-radius: 10px; 
+        border: none; 
+        color: white; 
+        background-color: #3B3B3B; 
+        font-size: 1.3em; 
     }
 }
 
@@ -45,9 +55,9 @@ form{
 
 input{
     height: 40px;
-     
 }
 
 textarea{
     height: 100px; 
 }
+

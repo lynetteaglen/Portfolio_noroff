@@ -65,8 +65,6 @@ export default function Contact() {
                         />
                         <p className={(emailError) ? 'error' : 'error__hide'}>Please enter your email*</p>
                         <br />
-
-                        <input type="submit" value="Send" disabled={firstnameError || lastnameError || emailError || messageError} className="btn-contact" />
                     </form>
                 </div>
 
@@ -80,6 +78,8 @@ export default function Contact() {
                     />
                     <p className={(messageError) ? 'error' : 'error__hide'}>Please enter a message*</p>
                     <br />
+                    <input type="submit" value="send" disabled={firstnameError || lastnameError || emailError || messageError} className="contact__button" />
+
                 </div>
 
             </div>
