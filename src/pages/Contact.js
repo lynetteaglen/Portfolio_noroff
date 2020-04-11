@@ -34,9 +34,10 @@ export default function Contact() {
 
     return (
         <>
+            <h1 className="contact__header">have any questions?</h1>
+
             <div className="contact__container">
-                <div className="contact__row">
-                    <h1 className="contact__header">have any questions?</h1>
+                <div className="contact__information">
                     <form onSubmit={handleSubmit}>
                         <p>Firstname</p>
                         <input type='text'
@@ -64,18 +65,20 @@ export default function Contact() {
                         <br />
                         <input type="submit" value="Send" disabled={firstnameError || lastnameError || emailError || messageError} className="btn-contact" />
                     </form>
-
-                    <div className="contact__messagebox">
-                        <p>Message</p>
-                        <textarea type='text'
-                            name='message'
-                            onChange={handleChange}
-                            className="form-control message-form"
-                        />
-                        <p className={(messageError) ? 'error' : 'error__hide'}>Please enter a message*</p>
-                        <br />
-                    </div>
                 </div>
+
+
+                <div className="contact__messagebox">
+                    <p>Message</p>
+                    <textarea type='text'
+                        name='message'
+                        onChange={handleChange}
+                        className="form-control message-form"
+                    />
+                    <p className={(messageError) ? 'error' : 'error__hide'}>Please enter a message*</p>
+                    <br />
+                </div>
+
             </div>
         </>
     )
