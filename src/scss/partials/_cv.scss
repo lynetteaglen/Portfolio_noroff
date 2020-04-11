@@ -1,0 +1,31 @@
+.cv{
+    &__header{
+        text-align: center;
+        margin-top: 4%; 
+        margin-bottom: 3%; 
+    }
+    &__container{
+        width: 100%; 
+        vertical-align: baseline;
+    }
+    &__sub{
+        font-size: 1.5em;
+        padding: 2%; 
+        margin-left: 10%; 
+    }
+
+    &__list-container{
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    &__list{
+        list-style-type: none;
+        font-size: 1.3em;
+    }
+}
+
+hr{
+    border-color: rgb(187, 187, 187);
+    width: 80%; 
+}

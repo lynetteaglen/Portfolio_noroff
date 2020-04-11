@@ -1,9 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
-
-
 const openNav = () => {
 
     document.getElementById("navigationbar").style.width = "100%";
@@ -26,7 +23,7 @@ const Navigation = () => {
                         <li className="nav-list"><Link to="/">home</Link></li>
                         <li className="nav-list"><Link to="/About">about</Link></li>
                         <li className="nav-list"><Link to="/Contact">contact</Link></li>
-                        <li className="nav-list"><Link to="/Contact">cv</Link></li>
+                        <li className="nav-list"><Link to="/Cv">cv</Link></li>
                     </ul>
                 </div>
             </nav>
