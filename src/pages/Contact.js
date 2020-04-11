@@ -14,7 +14,7 @@ export default function Contact() {
     const handleChange = (input) => {
         let name = input.target.name;
         let value = input.target.value;
-        let emailPattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+        let emailPattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
 
         switch (name) {
             case 'firstname':
@@ -47,6 +47,7 @@ export default function Contact() {
                         />
                         <p className={(firstnameError) ? 'error' : 'error__hide'}>Please enter your firstname*</p>
                         <br />
+
                         <p>Lastname</p>
                         <input type='text'
                             name='lastname'
@@ -55,6 +56,7 @@ export default function Contact() {
                         />
                         <p className={(lastnameError) ? 'error' : 'error__hide'}>Please enter your lastname*</p>
                         <br />
+
                         <p>Email</p>
                         <input type='text'
                             name='email'
@@ -63,6 +65,7 @@ export default function Contact() {
                         />
                         <p className={(emailError) ? 'error' : 'error__hide'}>Please enter your email*</p>
                         <br />
+
                         <input type="submit" value="Send" disabled={firstnameError || lastnameError || emailError || messageError} className="btn-contact" />
                     </form>
                 </div>

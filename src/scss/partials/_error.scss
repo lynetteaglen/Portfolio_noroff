@@ -1,0 +1,11 @@
+.error{
+    color: rgb(95, 146, 204);
+
+    &__border{
+    border: solid 1px rgb(95, 146, 204) 
+    }
+
+    &__hide{
+        display: none; 
+    }
+}
