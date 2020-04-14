@@ -4,10 +4,27 @@
         display: flex;
         justify-content: center;
     }
-    &__wrapper{
-        margin-top: 20%; 
+    &__wrapper{ 
+        margin-top: 15%;
+        margin-bottom: 30%; 
     }
-    &__text{
-        font-size: 4em;
+
+}
+
+.project-container{
+    &__head{
+        margin-left: 5%; 
+    }
+
+    &__sub{
+        margin-left: 25%; 
+        margin-bottom: 10%; 
+        margin-top: 10%; 
+    }
+
+    a{
+        margin-left: 50%; 
+
     }
 }
+
