@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const openNav = () => {
-
     document.getElementById("navigationbar").style.width = "100%";
 }
 
@@ -10,12 +9,17 @@ const closeNav = () => {
     document.getElementById("navigationbar").style.width = "0%";
 }
 
-
+/* 
+const selectPage = () => {
+    document.getElementById("navigationbar").addEventListener('click')
+}
+ */
 /* const refContainer = useRef(initialValue); */
 
 const Navigation = () => {
     return (
         <>
+            <h1 className="logo">L一A</h1>
             <nav id="navigationbar" className="overlay">
                 <a className="closebtn" onClick={closeNav}>&times;</a>
                 <div className="navigation-bar">
