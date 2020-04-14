@@ -1,0 +1,27 @@
+.about{
+    &__heading{
+        text-align: center;
+        margin-top: 10%; 
+    }
+    &__paragraph-one{
+        margin-left: 20%; 
+        margin-top: 5%; 
+        width: 60%;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+    }
+
+    &__paragraph-two{
+        margin-left: 20%; 
+        width: 60%;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+    }
+
+    &__paragraph-three{
+        margin-left: 20%; 
+        width: 60%;
+        font-size: 1.3em;
+        letter-spacing: 1px;
+    }
+}
