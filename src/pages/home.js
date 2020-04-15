@@ -2,16 +2,17 @@ import React, { useState } from 'react';
 
 
 export default function Home() {
-    const [type, setType] = useState('');
 
 
-
+    const clearDiv = (typedText) => {
+        document.getElementById(typedText).innerHTML = "Welcome.";
+    }
 
     return (
         <>
             <div className="home__container">
                 <div className="home__wrapper">
-                    <div className="css-typing p">
+                    <div id="typedText" className="css-typing p">
                         <p>let greeting = 'Welcome.';</p>
                         <p>console.log(greeting);</p>
                     </div>
