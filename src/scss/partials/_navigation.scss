@@ -1,9 +1,10 @@
 .logo{
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 2%; 
+  top:0;
   color: #4A4A4A; 
   font-size: 2em;
-  margin-top: 2%; 
+  position: fixed; 
 }
 
 .overlay {
@@ -46,14 +47,14 @@
   }
 
   .openbtn{
-      position: absolute;
+      position: fixed;
       top: 3%; 
       right: 2%; 
       z-index: 1;
       width: 90px; 
       height: 60px; 
       padding: 1em; 
-      background: white; 
+      background: #FCFCFC; 
       display: flex;
       align-items: center;
       justify-content: center;
