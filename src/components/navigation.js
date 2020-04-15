@@ -22,13 +22,20 @@ const Navigation = () => {
             <h1 className="logo">L一A</h1>
             <nav id="navigationbar" className="overlay">
                 <a className="closebtn" onClick={closeNav}>&times;</a>
-                <div className="navigation-bar">
-                    <ul className="navbar_content">
-                        <li className="nav-list"><Link to="/">home</Link></li>
-                        <li className="nav-list"><Link to="/About">about</Link></li>
-                        <li className="nav-list"><Link to="/Contact">contact</Link></li>
-                        <li className="nav-list"><Link to="/Cv">cv</Link></li>
-                    </ul>
+                <div className="overlay__box">
+                    <h1 className="overlay__logo">L一A</h1>
+                    <div className="navigation-bar">
+                        <ul className="navbar_content">
+                            <li className="nav-list"><Link to="/">home</Link></li>
+                            <li className="nav-list"><Link to="/About">about</Link></li>
+                            <li className="nav-list"><Link to="/Contact">contact</Link></li>
+                            <li className="nav-list"><Link to="/Cv">cv</Link></li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="icon">
+                    <img className="icon__github" src="https://img.icons8.com/ios-filled/50/000000/github.png" />
+                    <img className="icon__linkedin" src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png" />
                 </div>
             </nav>
 
