@@ -1,11 +1,15 @@
 .about{
+    &__container{
+        margin-top: 5%;  
+        margin-bottom: 20%; 
+
+    }
     &__heading{
         text-align: center;
-        margin-top: 10%; 
+        margin-top: 15%; 
     }
     &__paragraph-one{
         margin-left: 20%; 
-        margin-top: 5%; 
         width: 60%;
         font-size: 1.3em;
         letter-spacing: 1px;
