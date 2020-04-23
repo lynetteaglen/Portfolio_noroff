@@ -12,6 +12,7 @@
 }
 
 .project-container{
+
     &__head{
         margin-left: 5%; 
     }
@@ -27,4 +28,20 @@
 
     }
 }
+
+.project-image{
+    &__img1{
+        width: 20%; 
+    }
+
+    &__img2{
+        width: 20%; 
+    }
+
+    &__img3{
+        width: 20%;
+    }
+}
+
+
 
