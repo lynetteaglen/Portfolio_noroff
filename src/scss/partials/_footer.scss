@@ -1,8 +1,29 @@
 
-footer{
+footer{  
     bottom: 0; 
-    background-color:#3B3B3B; 
+    border-top: 1px solid rgb(206, 206, 206); 
     color: white; 
     padding: 2%; 
+    margin-top: 5%; 
+    width: 80%; 
+    margin-left: 10%; 
+}
+
+.footer__text{
     text-align: center;
+    margin-top: -2%; 
+}
+
+.footer__icons{
+    text-align: right;
+    margin-right: 5%; 
+    
+}
+
+.footer__github{
+    width: 35px; 
+    margin-right: 1%; 
+}
+.footer__linkedin{
+    width: 35px; 
 }
