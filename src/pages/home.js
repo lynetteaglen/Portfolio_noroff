@@ -32,7 +32,7 @@ export default function Home() {
                                 <h2>Semester Project 2020</h2>
                                 <p>This project was about making a game to test our JavaScript skills. I got an A on this project.
                                 I was not focusing as much on the design for this project because the programming was my critical part of the project.</p>
-                                <a>view project</a>
+                                <p><a href="#" class="effect-underline">view project</a></p>
                             </div>
                         </div>
                         <div class="project__img-block">
@@ -48,7 +48,7 @@ export default function Home() {
                                 <h2>Exam 2019</h2>
                                 <p>This project lasted for 4 weeks. I worked with a real client and got to experience how it is to cooperate and
                                     work with a client. </p>
-                                <a>view project</a>
+                                <p><a href="#" class="effect-underline">view project</a></p>
                             </div>
                         </div>
                         <div class="project__img-block">
@@ -62,8 +62,8 @@ export default function Home() {
                         <div class="project__block">
                             <div class="project__texts">
                                 <h2>Semester Project 2019</h2>
-                                <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway.</p>
-                                <a>view project</a>
+                                <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway. This project displays what</p>
+                                <p><a href="#" class="effect-underline">view project</a></p>
                             </div>
                         </div>
                         <div class="project__img-block">
@@ -72,29 +72,39 @@ export default function Home() {
                     </div>
                 </section>
 
-
-
-
-
-                {/* 
-                <h2 className="project-container__sub">Semester Project 2020</h2>
-                <a>link to project</a>
-
-                <h2 className="project-container__sub">Exam 2019</h2>
-                <a>link to project</a>
-
-                <h2 className="project-container__sub">Semester Project 2019</h2>
-                <a>link to project</a> */}
-
             </div>
 
 
             <div className="home__information">
-                <h2>The future is online.</h2>
-                <p>A website should not only be pleasing to look at. It should be an effortless journey
-                for the visitor.
-                </p>
+
+                <div className="home__box1">
+                    <h2>Simple</h2>
+                    <p>I am a strong believer in minimalism and keeping things simple. You want to avoid confusion and
+                    get straight to the point.
+                    </p>
+                </div>
+
+                <div className="home__box2">
+                    <h2>Intuitive</h2>
+                    <p>The user should not waste clicks or thoughts on your website. Everything should just be a beautiful flow.</p>
+                </div>
+
+                <div className="home__box3">
+                    <h2>Functionality</h2>
+                    <p>A great design is functional. What is a website if its loading capacity is slow, or even worse, nothing is working?</p>
+                </div>
+
+
+                <div className="home__button">
+                    <h2>have any questions?</h2>
+                    <a>contact me</a>
+                </div>
+
             </div>
+
+
+
+
         </>
     )
 }
