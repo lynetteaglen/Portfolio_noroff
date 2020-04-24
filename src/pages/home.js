@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import GreenEye from './../assets/green.png';
 import UN from './../assets/un.png';
+import Game from './../assets/game.png';
 
 
 export default function Home() {
@@ -22,47 +23,51 @@ export default function Home() {
             </div>
             {/*  <h2>&lt;h1&gt;home&lt;/h1&gt;</h2> */}
 
-            <div className="project-container">
+            <div className="project">
 
-                <section id="section1">
-                    <div class="section__container">
-                        <div class="section__block">
-                            <div class="sectoion__texts">
-                                <h2>Game of Gnomes</h2>
+                <section id="section1" className="project__section">
+                    <div class="project__container">
+                        <div class="project__block">
+                            <div class="project__texts">
+                                <h2>Semester Project 2020</h2>
                                 <p>This project was about making a game to test our JavaScript skills. I got an A on this project.
                                 I was not focusing as much on the design for this project because the programming was my critical part of the project.</p>
+                                <a>view project</a>
                             </div>
                         </div>
-                        <div class="img-block">
-                            <div class="grid-image image-1 active"><img className="project-image__img3" alt="Game of Gnomes" /></div>
+                        <div class="project__img-block">
+                            <div class="grid-image image-1 active"><img className="project-image__img1" src={Game} alt="Game of Gnomes" /></div>
                         </div>
                     </div>
                 </section>
 
-                <section id="section2">
-                    <div class="section__container">
-                        <div class="section__block">
-                            <div class="sectoion__texts">
-                                <h2>Green Eye</h2>
-                                <p>I got lucky and found a real client to work with for my exam. This gave me a lot of insight in how it works in real life with clients. </p>
+                <section id="section2" className="project__section">
+                    <div class="project__container">
+                        <div class="project__block">
+                            <div class="project__texts">
+                                <h2>Exam 2019</h2>
+                                <p>This project lasted for 4 weeks. I worked with a real client and got to experience how it is to cooperate and
+                                    work with a client. </p>
+                                <a>view project</a>
                             </div>
                         </div>
-                        <div class="img-block">
-                            <div class="grid-image image-1 active"><img className="project-image__img1" src={GreenEye} alt="Green Eye" /></div>
+                        <div class="project__img-block">
+                            <div class="grid-image image-1 active"><img className="project-image__img2" src={GreenEye} alt="Green Eye" /></div>
                         </div>
                     </div>
                 </section>
 
-                <section id="section3">
-                    <div class="section__container">
-                        <div class="section__block">
-                            <div class="sectoion__texts">
-                                <h2>UN Student Association</h2>
-                                <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway. </p>
+                <section id="section3" className="project__section">
+                    <div class="project__container">
+                        <div class="project__block">
+                            <div class="project__texts">
+                                <h2>Semester Project 2019</h2>
+                                <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway.</p>
+                                <a>view project</a>
                             </div>
                         </div>
-                        <div class="img-block">
-                            <div class="grid-image image-1 active"><img className="project-image__img2" src={UN} alt="UN Student Association" /></div>
+                        <div class="project__img-block">
+                            <div class="grid-image image-1 active"><img className="project-image__img3" src={UN} alt="UN Student Association" /></div>
                         </div>
                     </div>
                 </section>
