@@ -78,26 +78,26 @@ export default function Home() {
             <div className="home__information">
 
                 <div className="home__box1">
-                    <h2>Simple</h2>
-                    <p>I am a strong believer in minimalism and keeping things simple. You want to avoid confusion and
-                    get straight to the point.
+                    <h2>Minimalism</h2>
+                    <p>I am very fond of minimalism as an art. It gives you time to breath. On websites I truly believe that less is more, and
+                    by keeping things minimalistic and removing distractions.
                     </p>
                 </div>
 
                 <div className="home__box2">
                     <h2>Intuitive</h2>
-                    <p>The user should not waste clicks or thoughts on your website. Everything should just be a beautiful flow.</p>
+                    <p>The user should be experiencing the visit on a website as effortless. There should be no wasted clicks or having to conciously reason for what you are doing. The interaction should just in a state of flow.</p>
                 </div>
 
                 <div className="home__box3">
                     <h2>Functionality</h2>
-                    <p>A great design is functional. What is a website if its loading capacity is slow, or even worse, nothing is working?</p>
+                    <p>A great design is a design that is functional. What is a website if its' loading capacity is slow, or even worse, not clickable? The functions of a website should serve its purpose well.
+                    </p>
                 </div>
 
 
                 <div className="home__button">
-                    <h2>have any questions?</h2>
-                    <a>contact me</a>
+                    <p><a href="#" class="effect-underline">Have any questions?</a></p>
                 </div>
 
             </div>
