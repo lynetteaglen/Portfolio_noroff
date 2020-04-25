@@ -8,22 +8,41 @@
         width: 100%; 
     }
     &__sub{
-        font-size: 1.5em;
+        font-size: 2em;
+        color:rgb(240, 99, 123); 
         padding: 2%; 
         margin-left: 10%; 
     }
 
     &__list-container{
-        display: flex; 
-        justify-content: space-evenly;
-        vertical-align: middle;
+        display: grid; 
+        column-gap: 5vw;
+        grid-template-columns: repeat(6, 16.6%);  
 
         
     }
-    &__list{
+    &__list-1{
         list-style-type: none;
         font-size: 1.3em;
-        vertical-align: middle;
+        grid-column: 2/2;
+    }
+
+    &__list-2{
+        list-style-type: none;
+        font-size: 1.3em;
+        grid-column: 3/3;
+    }
+
+    &__list-3{
+        list-style-type: none;
+        font-size: 1.3em;
+        grid-column: 4/4; 
+    }
+
+    &__list-extra{
+        list-style-type: none;
+        font-size: 1.3em;
+        grid-column: 2/5; 
     }
 }
 
