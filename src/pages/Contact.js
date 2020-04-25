@@ -34,7 +34,7 @@ export default function Contact() {
 
     return (
         <>
-            <h1 className="contact__header">have any questions?</h1>
+            <h1 className="contact__header">Have any questions or requests?</h1>
 
             <div className="contact__container">
                 <div className="contact__information">
@@ -79,6 +79,7 @@ export default function Contact() {
                     <p className={(messageError) ? 'error' : 'error__hide'}>Please enter a message*</p>
                     <br />
                     <input type="submit" value="send" disabled={firstnameError || lastnameError || emailError || messageError} className="contact__button" />
+
 
                 </div>
 

@@ -3,7 +3,6 @@
     &__container{
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
-        grid-gap: 4rem;
     }
   
     &__information{
@@ -30,10 +29,15 @@
         width: 180px;
         margin-left: 70%; 
         border-radius: 10px; 
-        border: none; 
-        color: white; 
-        background-color: #3B3B3B; 
+        border: 1px solid rgb(114, 114, 114); 
+        color: grey; 
         font-size: 1.3em; 
+        background-color: white; 
+
+        &:hover{
+        color:rgb(240, 99, 123); 
+
+        }
     }
 }
 
@@ -51,7 +55,7 @@
 form{
     border-color: transparent; 
     font-size: 1em; 
-    height: 1000px; 
+    height: 500px; 
 }
 
 input{
