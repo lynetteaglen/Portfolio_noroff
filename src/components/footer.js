@@ -6,8 +6,8 @@ const Footer = () => {
         <>
             <footer>
                 <div className="footer__icons">
-                    <img className="footer__github" src="https://img.icons8.com/ios-filled/50/000000/github.png" />
-                    <img className="footer__linkedin" src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png" />
+                    <a href="https://github.com/lynetteaglen"><img className="footer__github" src="https://img.icons8.com/ios-filled/50/000000/github.png" /></a>
+                    <a href="https://www.linkedin.com/in/lynetteaglen/"><img className="footer__linkedin" src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png" /></a>
                 </div>
                 <p className="footer__text">© 2020 Lynette Aglen. All rights reserved</p>
 
