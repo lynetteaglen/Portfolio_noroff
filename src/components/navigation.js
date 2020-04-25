@@ -33,10 +33,6 @@ const Navigation = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="icon">
-                    <img className="icon__github" src="https://img.icons8.com/ios-filled/50/000000/github.png" />
-                    <img className="icon__linkedin" src="https://img.icons8.com/ios-filled/50/000000/linkedin-circled.png" />
-                </div>
             </nav>
 
             <span className="openbtn" onClick={openNav}><div></div></span>
