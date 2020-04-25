@@ -80,7 +80,7 @@ export default function Home() {
                 <div className="home__box1">
                     <h2>Minimalism</h2>
                     <p>I am very fond of minimalism as an art. It gives you time to breath. On websites I truly believe that less is more, and
-                    by keeping things minimalistic and removing distractions.
+                    by keeping things minimalistic and removing distractions is by far my most favorite designs.
                     </p>
                 </div>
 

@@ -14,7 +14,7 @@
         column-gap: 3vw;
         grid-template-columns: repeat(3, 31%);  
         background-color: rgb(238, 238, 238); 
-        padding: 5%; 
+        padding: 4%; 
 
         h2{
         }
@@ -75,6 +75,8 @@
         text-align: center;
         grid-column: 1/4; 
         padding: 5%; 
+        margin-top: 2%; 
+        margin-bottom: -2%; 
 
         h2{
             margin-bottom: 5%;
