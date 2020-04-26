@@ -9,12 +9,6 @@ const closeNav = () => {
     document.getElementById("navigationbar").style.width = "0%";
 }
 
-/* 
-const selectPage = () => {
-    document.getElementById("navigationbar").addEventListener('click')
-}
- */
-/* const refContainer = useRef(initialValue); */
 
 const Navigation = () => {
     return (

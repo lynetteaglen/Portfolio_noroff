@@ -6,11 +6,6 @@ import Game from './../assets/game.png';
 
 export default function Home() {
 
-
-    const clearDiv = (typedText) => {
-        document.getElementById(typedText).innerHTML = "Welcome.";
-    }
-
     return (
         <>
             <div className="home__container">
@@ -18,10 +13,11 @@ export default function Home() {
                     <div id="typedText" className="css-typing p">
                         <p>let greeting = 'Welcome.';</p>
                         <p>console.log(greeting);</p>
+                        <span></span>
                     </div>
                 </div>
             </div>
-            {/*  <h2>&lt;h1&gt;home&lt;/h1&gt;</h2> */}
+
 
             <div className="project">
 

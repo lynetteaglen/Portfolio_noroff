@@ -24,6 +24,14 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
   }
+
+  .css-typing span{
+    display: none; 
+  }
+
+  .css-typing span:after{
+    content: 'Welcome.';  
+  }
   
   
   @keyframes type {
