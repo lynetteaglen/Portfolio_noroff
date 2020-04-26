@@ -1,3 +1,9 @@
+This is a personal portfolio that shows my previous projects from my time at Noroff. 
+Further updates will come. 
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
