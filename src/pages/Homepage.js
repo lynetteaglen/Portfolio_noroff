@@ -4,7 +4,7 @@ import UN from './../assets/un.png';
 import Game from './../assets/game.png';
 
 
-export default function Home() {
+export default function Homepage() {
 
     return (
         <>
