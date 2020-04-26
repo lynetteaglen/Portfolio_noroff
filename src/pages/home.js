@@ -32,7 +32,7 @@ export default function Home() {
                                 <h2>Semester Project 2020</h2>
                                 <p>This project was about making a game to test our JavaScript skills. I got an A on this project.
                                 I was not focusing as much on the design for this project because the programming was my critical part of the project.</p>
-                                <p><a href="#" class="effect-underline">View Project</a></p>
+                                <p><a href="http://www.lynetteaglen.com/gameofgnomes/Code/" class="effect-underline">View Project</a></p>
                             </div>
                         </div>
                         <div class="project__img-block">
@@ -48,7 +48,7 @@ export default function Home() {
                                 <h2>Exam 2019</h2>
                                 <p>This project lasted for 4 weeks. I worked with a real client and got to experience how it is to cooperate and
                                     work with a client. </p>
-                                <p><a href="#" class="effect-underline">View Project</a></p>
+                                <p><a href="http://www.lynetteaglen.com/project_exam/Code/" class="effect-underline">View Project</a></p>
                             </div>
                         </div>
                         <div class="project__img-block">
@@ -63,7 +63,7 @@ export default function Home() {
                             <div class="project__texts">
                                 <h2>Semester Project 2019</h2>
                                 <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway. This project displays what</p>
-                                <p><a href="#" class="effect-underline">View Project</a></p>
+                                <p><a href="http://www.lynetteaglen.com/semesterproject/index.html" class="effect-underline">View Project</a></p>
                             </div>
                         </div>
                         <div class="project__img-block">
