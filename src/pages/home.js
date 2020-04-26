@@ -62,7 +62,7 @@ export default function Home() {
                         <div class="project__block">
                             <div class="project__texts">
                                 <h2>Semester Project 2019</h2>
-                                <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway. This project displays what</p>
+                                <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway. </p>
                                 <p><a href="http://www.lynetteaglen.com/semesterproject/index.html" class="effect-underline">View Project</a></p>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ export default function Home() {
 
                 <div className="home__box1">
                     <h2>Minimalism</h2>
-                    <p>I am very fond of minimalism as an art. It gives you time to breath. On websites I truly believe that less is more, and
+                    <p>I am very fond of minimalism as an art. It gives you time to breathe. On websites I truly believe that less is more, and
                     by keeping things minimalistic and removing distractions is by far my most favorite designs.
                     </p>
                 </div>
