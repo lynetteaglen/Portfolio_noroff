@@ -123,3 +123,57 @@
       right: 35px;
     }
   }
+
+
+
+  @media only screen and (max-width: 768px) {
+    .navbar_content {
+      margin-top: 5%;
+    }
+
+
+    .overlay__logo{
+      margin-top: 30%; 
+      margin-left: 3%; 
+
+    }
+
+}
+
+@media only screen and (max-width: 414px) {
+
+  .logo{
+    margin-left: 4%; 
+  }
+
+  .openbtn{
+    top: 2%; 
+    right: 4%; 
+  }
+  
+
+  .overlay{
+    width: 0; 
+  }
+
+  .overlay__box{
+    text-align: center;
+  }
+  
+  .navbar_content {
+  margin: 0; 
+  padding: 0; 
+  }
+
+  .nav_list{
+    margin: 0; 
+    padding: 0; 
+  }
+
+
+  .overlay__logo{
+    margin-top: 30%; 
+    margin-bottom: 10%; 
+    margin-right: 5%; 
+  }
+}

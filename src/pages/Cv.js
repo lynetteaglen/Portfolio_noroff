@@ -4,7 +4,7 @@ export default function Cv() {
 
     return (
         <>
-            <h1 className="cv__header">curriculum vitae</h1>
+            <h1 className="cv__header">Curriculum Vitae</h1>
             <div className="cv__container">
 
                 <h2 className="cv__sub">skills</h2>

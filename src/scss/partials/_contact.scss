@@ -66,3 +66,100 @@ textarea{
     height: 100px; 
 }
 
+
+
+@media only screen and (max-width: 768px) {
+
+.contact{
+   
+  
+    &__information{
+        padding: 10%;
+    }
+    &__messagebox{ 
+        padding: 10%;
+        margin-top: -30%; 
+    }
+    &__header{
+        margin-top: 15%;
+    }
+
+}
+
+.form-control{
+    width: 100%;  
+    border: none; 
+    outline: none; 
+    background-color: #FCFCFC; 
+    border-bottom: 1px solid rgb(85, 85, 85); 
+    color: black; 
+    font-size: 1em; 
+    margin-bottom: 16px; 
+}
+
+form{
+    border-color: transparent; 
+    font-size: 1em; 
+    height: 500px; 
+}
+
+input{
+    height: 40px;
+}
+
+textarea{
+    height: 100px; 
+}
+    
+
+}
+
+@media only screen and (max-width: 360px) {
+    .form-control{
+        width: 200px;  
+        
+    }
+}
+
+
+@media only screen and (max-width: 414px) {
+
+    .contact{
+        &__container{
+            display: grid;
+            grid-template-columns: repeat(1, 100%);
+        }
+      
+        &__information{
+            padding: 0;
+            margin-left: 15%;
+            margin-top: 10%; 
+        }
+        &__messagebox{ 
+            padding: 0;
+            margin-left: 15%;
+            margin-top: -20%; 
+    
+        }
+        &__header{
+            margin-top: 30%;
+            margin-bottom: 2%; 
+            font-size: 2em; 
+            margin-left: 2%; 
+            margin-right: 2%; 
+        }
+    
+        &__button{
+            width: 200px; 
+            margin-left: 5%;  
+            margin-top: 5%; 
+            margin-bottom: 5%; 
+    
+        }
+    }
+
+    .form-control{
+        width: 300px;  
+    }
+  
+}

@@ -15,6 +15,10 @@ export default function Home() {
                         <p>console.log(greeting);</p>
                         <span></span>
                     </div>
+                    <div className="mobile__front">
+                        <h1 >Welcome.</h1>
+                        <p >This is my portfolio</p>
+                    </div>
                 </div>
             </div>
 

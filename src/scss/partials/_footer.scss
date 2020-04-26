@@ -24,6 +24,23 @@ footer{
     width: 35px; 
     margin-right: 1%; 
 }
+
 .footer__linkedin{
     width: 35px; 
+}
+
+@media only screen and (max-width: 768px) {
+   .footer__icons{
+       text-align: right;
+
+   }
+
+}
+
+@media only screen and (max-width: 375px) {
+    .footer__icons{
+        text-align: center; 
+        margin-top: 10%; 
+        margin-bottom: 10%; 
+    }
 }

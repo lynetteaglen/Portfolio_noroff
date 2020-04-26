@@ -1,3 +1,6 @@
+.mobile__front{
+    display: none; 
+}
 
 .home{
     &__container{
@@ -16,10 +19,6 @@
         background-color: rgb(238, 238, 238); 
         padding: 4%; 
 
-        h2{
-        }
-        p{
-        }
     }
 
     &__box1{
@@ -42,10 +41,10 @@
         grid-column: 2/2;
         padding: 5%; 
         background-color: white;
+
         h2{
             text-align: center;
             margin-bottom: 5%;
-
         }
 
         p{
@@ -58,10 +57,10 @@
         grid-column: 3/3;
         padding: 5%; 
         background-color: white;
+
         h2{
             text-align: center;
             margin-bottom: 5%;
-
         }
 
         p{
@@ -86,9 +85,7 @@
             font-size: 2em; 
             color: rgb(240, 99, 123); 
             text-decoration: none;
-            
-            
-
+        
             &:hover{
                 color: rgb(240, 99, 123);
                 cursor: pointer;
@@ -133,8 +130,8 @@
         color: rgb(240, 99, 123); 
         text-decoration: none;
         font-size: 1.3em; 
-
     }
+
     a:hover{
         cursor: pointer;
     }
@@ -146,12 +143,110 @@
     &__img1{
         width: 80%;
     }
+
     &__img2{
         width: 80%;
     }
 
     &__img3{
         width: 80%;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+   
+   
+
+}
+
+@media only screen and (max-width: 414px) {
+
+    .css-typing p{
+        display: none; 
+    }
+
+    .mobile__front{
+        display: block;
+        margin-top: 110%;  
+        margin-bottom: 200%; 
+
+        p{
+            text-align: center;
+        }
+    }
+
+    
+
+    .home{
+        &__information{
+            display: grid; 
+            grid-template-columns: repeat(2, 100%);  
+        }
+
+        &__box1{
+            grid-column: 1/2;
+            margin: 2%; 
+        }
+    
+        &__box2{
+            grid-column: 1/2; 
+            margin: 2%; 
+        }
+    
+        &__box3{
+            grid-column: 1/2; 
+            margin: 2%; 
+        }
+
+
+        &__button{
+            grid-column: 1/1; 
+            text-align: center;
+            padding: 5%; 
+            margin-top: 10%; 
+            margin-bottom: 10%; 
+    
+            h2{
+                margin-bottom: 5%;
+            }
+    
+            a{
+                font-size: 2em; 
+                color: rgb(240, 99, 123); 
+                text-decoration: none;
+            
+                &:hover{
+                    color: rgb(240, 99, 123);
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .project{
+
+        &__section{
+            margin: 10%; 
+        }
+    
+        &__container{  
+            display: grid; 
+            grid-template-columns: repeat(1, 100%);  
+        }
+    
+        &__texts{
+            grid-column: 1/1;
+        }
+    
+        &__img-block{
+            grid-column: 1/1;
+        }
+    
+    
     }
 }
 
