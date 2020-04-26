@@ -10,6 +10,8 @@ const closeNav = () => {
 }
 
 
+
+
 const Navigation = () => {
     return (
         <>
@@ -20,10 +22,10 @@ const Navigation = () => {
                     <h1 className="overlay__logo">L一A</h1>
                     <div className="navigation-bar">
                         <ul className="navbar_content">
-                            <li className="nav-list"><Link to="/">home</Link></li>
-                            <li className="nav-list"><Link to="/About">about</Link></li>
-                            <li className="nav-list"><Link to="/Contact">contact</Link></li>
-                            <li className="nav-list"><Link to="/Cv">cv</Link></li>
+                            <li className="nav-list"><Link onClick={closeNav} to="/">home</Link></li>
+                            <li className="nav-list"><Link onClick={closeNav} to="/About">about</Link></li>
+                            <li className="nav-list"><Link onClick={closeNav} to="/Contact">contact</Link></li>
+                            <li className="nav-list"><Link onClick={closeNav} to="/Cv">cv</Link></li>
                         </ul>
                     </div>
                 </div>
