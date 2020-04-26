@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import GreenEye from './../assets/green.png';
 import UN from './../assets/un.png';
 import Game from './../assets/game.png';

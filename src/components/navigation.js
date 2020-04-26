@@ -10,8 +10,6 @@ const closeNav = () => {
 }
 
 
-
-
 const Navigation = () => {
     return (
         <>
