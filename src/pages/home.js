@@ -3,7 +3,6 @@ import GreenEye from './../assets/green.png';
 import UN from './../assets/un.png';
 import Game from './../assets/game.png';
 
-//test
 
 export default function Home() {
 
@@ -27,48 +26,48 @@ export default function Home() {
             <div className="project">
 
                 <section id="section1" className="project__section">
-                    <div class="project__container">
-                        <div class="project__block">
-                            <div class="project__texts">
+                    <div className="project__container">
+                        <div className="project__block">
+                            <div className="project__texts">
                                 <h2>Semester Project 2020</h2>
                                 <p>This project was about making a game to test our JavaScript skills. I got an A on this project.
                                 I was not focusing as much on the design for this project because the programming was my critical part of the project.</p>
-                                <p><a href="http://www.lynetteaglen.com/gameofgnomes/Code/" class="effect-underline">View Project</a></p>
+                                <p><a href="http://www.lynetteaglen.com/gameofgnomes/Code/" className="effect-underline">View Project</a></p>
                             </div>
                         </div>
-                        <div class="project__img-block">
-                            <div class="grid-image image-1 active"><img className="project-image__img1" src={Game} alt="Game of Gnomes" /></div>
+                        <div className="project__img-block">
+                            <div className="grid-image image-1 active"><img className="project-image__img1" src={Game} alt="Game of Gnomes" /></div>
                         </div>
                     </div>
                 </section>
 
                 <section id="section2" className="project__section">
-                    <div class="project__container">
-                        <div class="project__block">
-                            <div class="project__texts">
+                    <div className="project__container">
+                        <div className="project__block">
+                            <div className="project__texts">
                                 <h2>Exam 2019</h2>
                                 <p>This project lasted for 4 weeks. I worked with a real client and got to experience how it is to cooperate and
                                     work with a client. </p>
-                                <p><a href="http://www.lynetteaglen.com/project_exam/Code/" class="effect-underline">View Project</a></p>
+                                <p><a href="http://www.lynetteaglen.com/project_exam/Code/" className="effect-underline">View Project</a></p>
                             </div>
                         </div>
-                        <div class="project__img-block">
-                            <div class="grid-image image-1 active"><img className="project-image__img2" src={GreenEye} alt="Green Eye" /></div>
+                        <div className="project__img-block">
+                            <div className="grid-image image-1 active"><img className="project-image__img2" src={GreenEye} alt="Green Eye" /></div>
                         </div>
                     </div>
                 </section>
 
                 <section id="section3" className="project__section">
-                    <div class="project__container">
-                        <div class="project__block">
-                            <div class="project__texts">
+                    <div className="project__container">
+                        <div className="project__block">
+                            <div className="project__texts">
                                 <h2>Semester Project 2019</h2>
                                 <p>First semester project at my school. We had to recreate a website for UN Student Association in Norway. </p>
-                                <p><a href="http://www.lynetteaglen.com/semesterproject/index.html" class="effect-underline">View Project</a></p>
+                                <p><a href="http://www.lynetteaglen.com/semesterproject/index.html" className="effect-underline">View Project</a></p>
                             </div>
                         </div>
-                        <div class="project__img-block">
-                            <div class="grid-image image-1 active"><img className="project-image__img3" src={UN} alt="UN Student Association" /></div>
+                        <div className="project__img-block">
+                            <div className="grid-image image-1 active"><img className="project-image__img3" src={UN} alt="UN Student Association" /></div>
                         </div>
                     </div>
                 </section>
@@ -98,7 +97,7 @@ export default function Home() {
 
 
                 <div className="home__button">
-                    <p><a href="#" class="effect-underline">Have any questions?</a></p>
+                    <p><a href="#" className="effect-underline">Have any questions?</a></p>
                 </div>
 
             </div>
