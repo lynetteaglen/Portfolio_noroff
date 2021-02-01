@@ -2,6 +2,7 @@ import React from 'react';
 import GreenEye from './../assets/green.png';
 import UN from './../assets/un.png';
 import Game from './../assets/game.png';
+import { Link } from 'react-router-dom';
 
 
 export default function Homepage() {
@@ -77,27 +78,14 @@ export default function Homepage() {
 
             <div className="home__information">
 
-                <div className="home__box1">
-                    <h2>Minimalism</h2>
-                    <p>I am very fond of minimalism as an art. It gives you time to breathe. On websites I truly believe that less is more, and
-                    by keeping things minimalistic and removing distractions is by far my most favorite designs.
-                    </p>
+                <div className="home__paragraph">
+                    <h1>Design is more than just principles</h1>
+                    <p>If functionality, simplicity and user experience is given attention, I truly believe you are on a road to a great design.</p>
                 </div>
-
-                <div className="home__box2">
-                    <h2>Intuitive</h2>
-                    <p>The user should be experiencing the visit on a website as effortless. There should be no wasted clicks or having to conciously reason for what you are doing. The interaction should just in a state of flow.</p>
-                </div>
-
-                <div className="home__box3">
-                    <h2>Functionality</h2>
-                    <p>A great design is a design that is functional. What is a website if its' loading capacity is slow, or even worse, not clickable? The functions of a website should serve its purpose well.
-                    </p>
-                </div>
-
 
                 <div className="home__button">
-                    <p><a href="#" className="effect-underline">Have any questions?</a></p>
+                    <p><a className="effect-underline"><Link to="/Contact">Have any questions?</Link></a></p>
+
                 </div>
 
             </div>
