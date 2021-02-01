@@ -14,7 +14,7 @@ export default function Contact() {
     const handleChange = (input) => {
         let name = input.target.name;
         let value = input.target.value;
-        let emailPattern = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/
+        let emailPattern = /^[a-zA-Z0-9]+@[a-zA-Z0-9]+\.[A-Za-z]+$/
 
         switch (name) {
             case 'firstname':
@@ -29,6 +29,8 @@ export default function Contact() {
             case 'message':
                 (value !== '') ? setMessageError(false) : setEmailError(true)
                 break;
+
+            default:
         }
     }
 

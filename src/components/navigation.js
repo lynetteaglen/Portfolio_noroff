@@ -15,7 +15,7 @@ const Navigation = () => {
         <>
             <h1 className="logo">L一A</h1>
             <nav id="navigationbar" className="overlay">
-                <a className="closebtn" onClick={closeNav}>&times;</a>
+                <button className="closebtn" onClick={closeNav}>&times;</button>
                 <div className="overlay__box">
                     <h1 className="overlay__logo">L一A</h1>
                     <div className="navigation-bar">
