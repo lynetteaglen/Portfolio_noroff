@@ -84,7 +84,7 @@ export default function Homepage() {
                 </div>
 
                 <div className="home__button">
-                    <p><a className="effect-underline"><Link to="/Contact">Have any questions?</Link></a></p>
+                    <p><Link className="effect-underline" to="/Contact">Have any questions?</Link></p>
 
                 </div>
 
